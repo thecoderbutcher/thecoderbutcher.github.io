@@ -18,6 +18,9 @@ const Navbar = () => {
   };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    toggleActive();
+  };
+  const toggleActive = () => {
     setActive(!active);
   };
 
@@ -82,7 +85,7 @@ const Navbar = () => {
             className="cursor-pointer flex items-center justify-center"
             onClick={toggleMenu}
           >
-            <MenuButton active={active} setActive={setActive} />
+            <MenuButton active={active} setActive={toggleActive} />
           </span>
         </div>
         {isOpen && (
