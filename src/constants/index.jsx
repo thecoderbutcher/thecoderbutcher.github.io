@@ -28,8 +28,8 @@ export const links = {
     },
     {
       id: 3,
-      title: "Resume",
-      url: "/resume",
+      title: "Experience",
+      url: "/experience",
     } /*
         {
             id: 4,
@@ -50,8 +50,8 @@ export const links = {
     },
     {
       id: 3,
-      title: "Curriculum",
-      url: "/resume",
+      title: "Experiencia",
+      url: "/experience",
     } /*
         {
             id: 4,
