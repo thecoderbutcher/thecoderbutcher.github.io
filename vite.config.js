@@ -6,6 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "https://thecoderbutcher.github.io/",
   plugins: [react(), tailwindcss()],
+  build: {
+    outDir: "docs",
+  },
   server: {
     historyApiFallback: true,
   },
