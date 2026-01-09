@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "http://thecoderbutcher.site",
+  base: "https://thecoderbutcher.github.io/",
   plugins: [react(), tailwindcss()],
   server: {
     historyApiFallback: true,
